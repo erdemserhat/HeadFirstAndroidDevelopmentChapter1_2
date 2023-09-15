@@ -16,4 +16,8 @@
 
     </string-array>
 
+
+    <string name="title">Learn Months in English</string>
+    <string name="buttonText">Show Turkish Translation</string>
+
     </resources>

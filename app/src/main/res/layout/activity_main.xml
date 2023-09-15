@@ -7,10 +7,47 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title"
+        android:layout_gravity="center">
+
+    </TextView>
+
     <Spinner
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_margin="15dp"
         android:entries="@array/months">
     </Spinner>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/buttonText">
+
+    </Button>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="info"
+        android:layout_margin="15dp">
+
+    </TextView>
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_gravity="center"
+        android:layout_height="400dp"
+        android:src="#B6A4A4">
+
+    </ImageView>
+
 </androidx.appcompat.widget.LinearLayoutCompat>
